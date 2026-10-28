@@ -1,0 +1,151 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+header,
+.main {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 0% 15%;
+}
+
+#header-logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.main button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: none;
+    padding: 6px 26px 6px 26px;
+    color: #f9faf8;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-right {
+    display: flex;
+}
+
+#nav-right li {
+    margin-right: 10px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5%;
+    padding-top: 50px;
+}
+
+.main-left {
+    margin-right: 60px;
+}
+
+.main h1 {
+    font-weight: 900;
+    font-size: 48px;
+    margin: 0;
+}
+
+.main p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.card-div {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 350px 10px 350px;
+}
+
+.card p {
+   max-width: 170px;
+}
+
+.card img {
+    height: 170px;
+    width: 180px;
+    border: solid 3px #3882f6;
+    border-radius: 12px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 4% 20% 4% 20%;
+    margin-top: 100px;
+}
+
+.quote h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote p {
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 700px;
+    display: inline;
+}
+
+.action {
+    background-color: #3882f6;
+    margin: 4% 7% 4% 7%;
+    padding: 2% 6% 2% 6%;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    color: #e5e7eb;
+}
+
+.action button {
+    background-color: #3882f6;
+    color: #e5e5e5;
+    border: 3px solid #e5e5e5;
+    margin: auto 0px auto auto;
+    padding: 8px 25px 8px 25px;
+    border-radius: 6px;
+}
+
+.action h3 {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.action p {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #1f2937;
+    padding: 10px ;
+    text-align: center;
+    color: #e5e7eb;
+    font-weight: 500;
+}
